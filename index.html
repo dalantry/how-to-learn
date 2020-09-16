@@ -11,8 +11,8 @@
   <div class="page">
     <header class="header">
       <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс.Практикум">
-      <h2 class="header__title">Научиться учиться</h2>
-      <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a link class="header__link" href="#">Узнать &#8594;</a></h2>
+      <h1 class="header__title">Научиться учиться</h1>
+      <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="header__link" href="#">Узнать &rarr;</a></h2>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Картина Ф. Решетникова 'Опять двойка'">
       <div class="header__square-pic"></div>
     </header>
@@ -71,15 +71,15 @@
        </section>
 
       <section class="feinman">
-        <h2 class=" section-title feinman__section-title">Метод Фейнмана</h2>
-        <h2 class="section-subtitle feinman__section-subtitle">Выучить и не забыть.</h2>
-        <img class="image image__feinman" src="./images/feynman.png" alt="Изображение Фейнмана"> 
-        <a link class="feinman__link"  href="#">Подробнее&#8594;</a>
+        <h2 class=" feinman__title">Метод Фейнмана</h2>
+        <h2 class="feinman__subtitle">Выучить и не забыть.</h2>
+        <img class="feinman__image" src="./images/feynman.png" alt="Изображение Фейнмана"> 
+        <a class="feinman__link"  href="#">Подробнее&rarr;</a>
       </section>
       
       <section class="kaufman">
-        <h2 class="section-title section-title__theme_dark">Принципы обучения</h2>
-        <h2 class="section-subtitle section-subtitle__theme_dark">от Джоша Кауфмана</h2>
+        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
+        <h2 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h2>
 
         <div class="table table_theme_dark">
           <div class="table__cell table__cell_theme_dark">
@@ -122,7 +122,7 @@
           <h3 class="table__heading table__heading_theme_dark">10</h3>
           <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </div>
-          <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="kaufman-triangle">
+          <div class="kaufman__triangle"></div>
         </div>
       </section>
     </main>
@@ -130,27 +130,27 @@
     <footer class="footer">
       <div class="footer__columns">
 
-        <div class="footer__column_content_copyright">
+        <div class="footer__column footer__column_content_copyright">
           <img class="logo logo__place_footer" src="./images/logo_place_footer.svg" alt="Логотип Я.Практикум">
-          <div class="footer__author"> &copy; 2020. Pisligin Ilya</div>
+          <p class="footer__author"> &copy; 2020. Pisligin Ilya</p>
         </div>
 
-        <div class="footer__column_content_info">
+        <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
-          <div class="footer__column-links"> 
-           <a link class="footer__link" href="https://i04.fotocdn.net/s123/a43492cde51c6392/user_l/2801748531.jpg">Главная</a>
-           <a link class="footer__link" href="https://www.rollingstone.com/wp-content/uploads/2019/11/spongebob.jpg">Концепция</a>
-           <a link class="footer__link" href="https://i.ytimg.com/vi/6vqqTYCfkRE/maxresdefault.jpg">Наставники</a>
-          </div>
-       </div>
-        <div class="footer__column_content_social"> 
-          <h3 class="footer__social-heading">Соцсети</h3>
-          <div class="footer__social-links"> 
-           <a link class="footer__link" href="https://www.instagram.com/yndx.praktikum/"><img class="icon icon_instagram" src="./images/instagram_color_white.svg" alt="icon Instagram">Instagram</a>
-           <a link class="footer__link" href="https://www.facebook.com/yandex.praktikum/"><img class="icon icon_facebook" src="./images/facebook_color_white.svg" alt="icon Facebook">Facebook</a>
-           <a link class="footer__link" href="https://vk.com/yandex.praktikum"><img class="icon icon_VK" src="./images/vk_color_white.svg" alt="icon VK">VK</a>
-          </div>
-        </div>
+          <ul class="footer__column-links">
+           <li><a  class="footer__link" href="https://i04.fotocdn.net/s123/a43492cde51c6392/user_l/2801748531.jpg">Главная</a></li>
+           <li><a  class="footer__link" href="https://www.rollingstone.com/wp-content/uploads/2019/11/spongebob.jpg">Концепция</a></li>
+           <li><a  class="footer__link" href="https://i.ytimg.com/vi/6vqqTYCfkRE/maxresdefault.jpg">Наставники</a></li>
+            </ul>
+          </nav>
+        <nav class="footer__column footer__column_content_social"> 
+          <h3 class="footer__column-heading">Соцсети</h3>
+          <ul class="footer__column-links"> 
+           <li><a  class="footer__link" href="https://www.facebook.com/yandex.praktikum/"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Фейсбук">Facebook</a></li>
+           <li><a  class="footer__link" href="https://vk.com/yandex.praktikum"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВК">VK</a></li>
+           <li><a  class="footer__link" href="https://www.instagram.com/yndx.praktikum/"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Инстаграм">Instagram</a></li>
+          </ul>
+        </nav>
       </div>
       
       
