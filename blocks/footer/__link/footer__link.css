@@ -1,0 +1,12 @@
+.footer__link{
+    display: table-cell;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+    }
+  .footer__link :visited{
+      color: white;
+     }
